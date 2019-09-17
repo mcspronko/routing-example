@@ -1,0 +1,22 @@
+{
+    "name": "pronko/app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Pronko",
+            "email": "max.pronko@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/route": "^4.3",
+        "zendframework/zend-diactoros": "^2.1",
+        "zendframework/zend-httphandlerrunner": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pronko\\App\\": "src/"
+        }
+    }
+}
